@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFF5E1;
+    background-color: #000;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    border-bottom: 2px solid #D4AF37;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-header {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.nomeProfessor {
+    color: #D4AF37;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.navegacao {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navegacao a {
+    color: #FFF5E1;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 16px;
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+.navegacao a.ativo {
+    background-color: #D4AF37;
+    color: #000;
+}
+
+
+
+main {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.sobreMain {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #D4AF37;
+    border-radius: 15px;
+    width: 60%;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
+    text-align: justify;
+}
+
+.userPin {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.sobreP {
+    display: inline-block;
+    font-size: 28px;
+    color: #D4AF37;
+    margin-bottom: 10px;
+}
+
+.sobreDescricao {
+    font-size: 18px;
+    color: #FFF5E1;
+}
+
+
+.hobbies {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #D4AF37;
+    border-radius: 15px;
+    width: 60%;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
+}
+
+.parteHobbies {
+    font-size: 24px;
+    color: #D4AF37;
+    margin-bottom: 10px;
+}
